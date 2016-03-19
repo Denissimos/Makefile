@@ -8,7 +8,7 @@ int main()
 {
 	srand(time(NULL));
 	int a[10];
-	for(int i = 0; i < 10; i++)
+	for (int i = 0; i < 10; i++)
 		a[i] = rand() % 50;
 	qwerty(a, 10);
 	return 0;
